@@ -1,0 +1,47 @@
+body {
+    background: #830E0D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:22%;
+    padding:10px;
+    margin:10px;
+    padding:20px 10px;
+    background: whitesmoke
+}
+
+.assignment img {
+    width:200px;
+    margin: 10px;
+    border:2px solid black;
+    display:block;
+    margin:auto;
+}
+
+.assignment img:hover {
+    border:4px dashed #830E0D
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    text-align:center;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color:#830E0D;
+}
